@@ -1,3 +1,5 @@
+package Subjects;
+
 public enum StudyProfile {
     MEDICINE("Медицина"), PROGRAMMER("Программист"), MECHANIC("Механик");
 

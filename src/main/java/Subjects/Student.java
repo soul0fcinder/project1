@@ -1,18 +1,16 @@
+package Subjects;
+
 public class Student {
     String fullName, universityId;
     int currentCourseNumber;
     float avgExamScore;
 
-    public Student(String fullName, String universityId, int currentCourseNumber, float avgExamScore) {
-        this.fullName = fullName;
-        this.universityId = universityId;
-        this.currentCourseNumber = currentCourseNumber;
-        this.avgExamScore = avgExamScore;
+    public Student() {
     }
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "Subjects.Student{" +
                 "fullName='" + fullName + '\'' +
                 ", universityId='" + universityId + '\'' +
                 ", currentCourseNumber=" + currentCourseNumber +
