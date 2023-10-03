@@ -1,4 +1,4 @@
-package Subjects;
+package subjects;
 
 public enum StudentComparatorType {
     FULL_NAME,

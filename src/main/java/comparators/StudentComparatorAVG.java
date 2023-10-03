@@ -1,7 +1,6 @@
-package Comparators;
+package comparators;
 
-import Subjects.Student;
-import org.apache.commons.lang3.StringUtils;
+import subjects.Student;
 
 public class StudentComparatorAVG implements StudentComparator{
     @Override

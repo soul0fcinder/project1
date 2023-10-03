@@ -1,8 +1,8 @@
-package Util;
+package util;
 
-import Comparators.*;
-import Subjects.StudentComparatorType;
-import Subjects.UniversityComparatorType;
+import comparators.*;
+import subjects.StudentComparatorType;
+import subjects.UniversityComparatorType;
 
 public class ComparatorUtil {
 

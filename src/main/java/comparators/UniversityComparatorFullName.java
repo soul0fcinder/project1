@@ -1,6 +1,6 @@
-package Comparators;
+package comparators;
 
-import Subjects.University;
+import subjects.University;
 import org.apache.commons.lang3.StringUtils;
 
 public class UniversityComparatorFullName implements UniversityComparator{

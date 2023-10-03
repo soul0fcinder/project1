@@ -1,4 +1,4 @@
-package Subjects;
+package subjects;
 
 public class Student {
     String fullName, universityId;

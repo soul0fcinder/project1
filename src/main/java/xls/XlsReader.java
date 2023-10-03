@@ -1,8 +1,8 @@
-package Util;
+package xls;
 
-import Subjects.StudyProfile;
-import Subjects.Student;
-import Subjects.University;
+import subjects.StudyProfile;
+import subjects.Student;
+import subjects.University;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -13,9 +13,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class UtilClass {
+public class XlsReader {
 
-    private UtilClass() {
+    private XlsReader() {
     }
 
     public static List<University> readXlsUniversities(String filePath) throws IOException {
